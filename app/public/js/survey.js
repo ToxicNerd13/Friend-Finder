@@ -3,9 +3,10 @@ $(document).ready(function () {
         event.preventDefault();
 
         let scoresArr = [];
-        
-        $(".form-check input[type=radio]:checked").each(function() {
-            scoresArr.push($(this).val());
+
+        $(".form-check input[type=radio]:checked").each(function () {
+            let score = $(this).val();
+            scoresArr.push(score);
         });
 
         let newFriend = {
@@ -15,12 +16,10 @@ $(document).ready(function () {
         };
         console.log(newFriend);
 
-
         $
             .post("/api/friends", newFriend)
             .then(function (data) {
                 console.log(data);
-                alert("Adding character...");
             });
     });
-});
+}); 
