@@ -7,11 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Take the Survey!</title>
 
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="../js/survey.js"></script>
 
 </head>
 
@@ -263,6 +261,31 @@
 
   </div>
 
+  <!-- Friend Match Modal -->
+  <div class="modal fade" role="dialog" id="match-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title w-100 text-center">Your New Best Friend Is...</h3>
+        </div>
+        <div class="modal-body text-center">
+          <h3 id="match-name"></h3>
+          <img id="match-pic" src="" width="300px" height="300px" alt="Friend portrait">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <!-- jQuery library -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <!-- Bootstrap Javascript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <!-- My Javascript -->
+    <script src="../js/survey.js"></script>
 </body>
 
 </html>

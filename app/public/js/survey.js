@@ -4,7 +4,7 @@ $(document).ready(function () {
 
         let scoresArr = [];
 
-        $(".form-check input[type=radio]:checked").each(function () {
+        $(".form-check input[type=radio]:checked").each(function() {
             let score = $(this).val();
             scoresArr.push(score);
         });
@@ -16,10 +16,10 @@ $(document).ready(function () {
         };
         console.log(newFriend);
 
-        $
-            .post("/api/friends", newFriend)
-            .then(function (data) {
-                console.log(data);
-            });
+        $.post("/api/friends", newFriend, function(data) {
+            $("#match-name").text(data.name);
+            $("#match-pic").attr("src", data.photo);
+            $("#match-modal").modal("show");
+        });
     });
 }); 
