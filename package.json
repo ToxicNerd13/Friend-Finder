@@ -89,7 +89,8 @@
     "url": "git+https://github.com/ToxicNerd13/Friend-Finder.git"
   },
   "engines": {
-    "node": "10.16.1"
+    "node": "10.16.1",
+    "npm": "6.9.0"
   },  
   "keywords": [],
   "author": "",
