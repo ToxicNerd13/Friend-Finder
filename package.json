@@ -1,7 +1,7 @@
 {
   "name": "Friend-Finder",
   "version": "1.0.0",
-  "description": "",
+  "description": "* HTML\r * Bootstrap\r * Javascript\r * Node.js\r * Express.js\r * Heroku",
   "main": "server.js",
   "dependencies": {
     "collection-visit": "^1.0.0",
@@ -35,10 +35,10 @@
     "is-installed-globally": "^0.1.0",
     "is-npm": "^1.0.0",
     "is-number": "^3.0.0",
-    "is-path-inside": "^1.0.1",
     "is-obj": "^1.0.1",
-    "is-redirect": "^1.0.0",
+    "is-path-inside": "^1.0.1",
     "is-plain-object": "^2.0.4",
+    "is-redirect": "^1.0.0",
     "is-retry-allowed": "^1.2.0",
     "is-stream": "^1.1.0",
     "is-windows": "^1.0.2",
@@ -63,6 +63,7 @@
     "pascalcase": "^0.1.1",
     "path-dirname": "^1.0.2",
     "path-is-absolute": "^1.0.1",
+    "path-is-inside": "^1.0.2",
     "path-key": "^2.0.1",
     "pify": "^3.0.0",
     "posix-character-classes": "^0.1.1",
@@ -76,21 +77,20 @@
     "resolve-url": "^0.2.1",
     "ret": "^0.1.15",
     "safe-regex": "^1.1.0",
-    "semver": "^5.7.1",
-    "path-is-inside": "^1.0.2"
+    "semver": "^5.7.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "engines": {
-    "node": "10.16.1" 
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ToxicNerd13/Friend-Finder.git"
   },
+  "engines": {
+    "node": "10.16.1"
+  },  
   "keywords": [],
   "author": "",
   "license": "ISC",
