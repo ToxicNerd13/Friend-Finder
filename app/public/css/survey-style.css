@@ -1,0 +1,26 @@
+html {
+      font-size: 12px;
+}
+.section-header {
+      background-color: rgb(2, 161, 2);
+      padding: 1.3rem 0;
+      border: 5px solid black;
+}
+#info-header h2 {
+      font-size: 3rem;
+}
+#questions-col h3 {
+      text-decoration: underline;
+}
+#questions-col h5 {
+      font-size: 1.7rem;
+}
+.form-check {
+      font-size: 1.7rem;
+}
+#submit-btn {
+      font-size: 2rem;
+}
+.question {
+border-bottom: 2px solid rgb(202, 201, 201);
+}
