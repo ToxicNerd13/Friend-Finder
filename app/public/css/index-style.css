@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  background-image: url(../images/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.jumbotron {
+      border: 4px dashed black;
+      border-radius: 30px;
+}
