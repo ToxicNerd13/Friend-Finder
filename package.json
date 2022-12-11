@@ -4,7 +4,7 @@
   "description": "* HTML\r * Bootstrap\r * Javascript\r * Node.js\r * Express.js\r * Heroku",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {},
   "scripts": {
