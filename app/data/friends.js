@@ -1,7 +1,7 @@
 module.exports = [
     {
         name: "Jane Doe",
-        photo: "https://unsplash.com/photos/aoQ4DYZLE_E",
+        photo: "../images/JaneDoe.jpg",
         scores: ["3", "1", "2", "2", "5", "4", "1", "3", "5", "3"]
     },
     {
@@ -11,7 +11,7 @@ module.exports = [
     },
     {
         name: "Anne Igma",
-        photo: "https://unsplash.com/photos/W7b3eDUb_2I",
+        photo: "../images/AnneIgma.png",
         scores: ["1", "5", "4", "5", "2", "3", "3", "4", "1", "4"]
     },
 ]

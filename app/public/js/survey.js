@@ -11,10 +11,8 @@ $(document).ready(function () {
 
         let newFriend = {
             name: $("#name-input").val().trim(),
-            photo: $("#photo-input").val().trim(),
             scores: scoresArr
         };
-        console.log(newFriend);
 
         $.post("/api/friends", newFriend, function(data) {
             $("#match-name").text(data.name);
