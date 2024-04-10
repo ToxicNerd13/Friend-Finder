@@ -6,24 +6,19 @@
   "dependencies": {
     "express": "^4.17.1"
   },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
-  },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ToxicNerd13/Friend-Finder.git"
+    "url": "git+https://github.com/killoranrivers/Friend-Finder.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ToxicNerd13/Friend-Finder/issues"
+    "url": "https://github.com/killoranrivers/Friend-Finder/issues"
   },
-  "homepage": "https://github.com/ToxicNerd13/Friend-Finder#readme"
+  "homepage": "https://github.com/killoranrivers/Friend-Finder#readme"
 }
